@@ -19,7 +19,7 @@ createApp({
                 });
 
             }
-
+            
         },
         getIntoArray(element){
 

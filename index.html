@@ -14,7 +14,7 @@
 
         <template v-for="(email, index) in listOfEmails">
 
-            <ul>
+            <ul v-if="listOfEmails.length === 10">
                 <li>{{listOfEmails[index]}}</li>
             </ul>
 
