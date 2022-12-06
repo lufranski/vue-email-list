@@ -12,13 +12,16 @@
     
     <div id="app">
 
-        <template v-for="(email, index) in listOfEmails">
-
-            <ul v-if="listOfEmails.length === 10">
+        
+        <ul v-if="listOfEmails.length === 10">
+            <template v-for="(email, index) in listOfEmails">
+                
                 <li>{{listOfEmails[index]}}</li>
-            </ul>
+            
+            </template>
+        </ul>
 
-        </template>
+
 
     </div>
 
